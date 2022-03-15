@@ -75,23 +75,23 @@ True and False  # => False
 False or True   # => True
 
 # True and False are actually 1 and 0 but with different keywords
-True + True # => 2
-True * 8    # => 8
-False - 5   # => -5
+True + True  # => 2
+True * 8     # => 8
+False - 5    # => -5
 
 # Comparison operators look at the numerical value of True and False
-0 == False  # => True
-1 == True   # => True
-2 == True   # => False
--5 != False # => True
+0 == False   # => True
+1 == True    # => True
+2 == True    # => False
+-5 != False  # => True
 
 # Using boolean logical operators on ints casts them to booleans for evaluation, but their non-cast value is returned
 # Don't mix up with bool(ints) and bitwise and/or (&,|)
-bool(0)     # => False
-bool(4)     # => True
-bool(-6)    # => True
-0 and 2     # => 0
--5 or 0     # => -5
+bool(0)   # => False
+bool(4)   # => True
+bool(-6)  # => True
+0 and 2   # => 0
+-5 or 0   # => -5
 
 # Equality is ==
 1 == 1  # => True
@@ -141,9 +141,9 @@ len("This is a string")  # => 16
 
 # You can also format using f-strings or formatted string literals (in Python 3.6+)
 name = "Reiko"
-f"She said her name is {name}." # => "She said her name is Reiko"
+f"She said her name is {name}."  # => "She said her name is Reiko"
 # You can basically put any Python expression inside the braces and it will be output in the string.
-f"{name} is {len(name)} characters long." # => "Reiko is 5 characters long."
+f"{name} is {len(name)} characters long."  # => "Reiko is 5 characters long."
 
 # None is an object
 None  # => None
@@ -155,12 +155,12 @@ None is None   # => True
 
 # None, 0, and empty strings/lists/dicts/tuples all evaluate to False.
 # All other values are True
-bool(None)# => False
-bool(0)   # => False
-bool("")  # => False
-bool([])  # => False
-bool({})  # => False
-bool(())  # => False
+bool(None)  # => False
+bool(0)     # => False
+bool("")    # => False
+bool([])    # => False
+bool({})    # => False
+bool(())    # => False
 
 ####################################################
 ## 2. Variables and Collections
