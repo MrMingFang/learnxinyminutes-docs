@@ -155,6 +155,7 @@ None is None   # => True
 
 # None, 0, and empty strings/lists/dicts/tuples all evaluate to False.
 # All other values are True
+bool(None)# => False
 bool(0)   # => False
 bool("")  # => False
 bool([])  # => False
