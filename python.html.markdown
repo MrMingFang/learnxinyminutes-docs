@@ -139,7 +139,7 @@ b == a            # => True, a's and b's objects are equal
 # You can find the length of a string
 len("This is a string")  # => 16
 
-# You can also format using f-strings or formatted string literals (in Python 3.6+)
+# You can format using f-strings or formatted string literals (in Python 3.6+)
 name = "Reiko"
 f"She said her name is {name}." # => "She said her name is Reiko"
 # You can basically put any Python expression inside the braces and it will be output in the string.
